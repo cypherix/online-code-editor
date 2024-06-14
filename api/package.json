@@ -1,0 +1,19 @@
+{
+  "name": "code-editor-api",
+  "version": "1.0.0",
+  "description": "Server Side for the Code-Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code-editor"
+  ],
+  "author": "Yogesh M",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
