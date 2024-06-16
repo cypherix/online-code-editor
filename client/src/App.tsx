@@ -1,9 +1,13 @@
+import { HeroEditor } from "./Components/HeroEditor"
+import { SideBar } from "./Components/SideBar"
 
 
 export const App:React.FC = () => {
   return (
-    <div className="text-3xl underline">
-        App Component
+    <div className="flex flex-row">
+        <SideBar/>
+        <HeroEditor/>
     </div>
   )
 }
+
